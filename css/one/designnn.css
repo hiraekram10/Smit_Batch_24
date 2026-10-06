@@ -1,0 +1,24 @@
+/* 
+________________________________syntax
+  
+selector {
+  property :value;
+}
+
+*/
+
+
+h1{
+    color: red;
+}
+
+h1{
+    color: green;
+}
+
+li , h4 {
+    background-color: burlywood;
+    color:purple
+}
+
+
