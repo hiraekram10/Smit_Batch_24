@@ -1,0 +1,42 @@
+@font-face {
+    font-family:'ruko' ;
+    src: url('fonts/Playwrite_CA_Guides/PlaywriteCAGuides-Regular.ttf');
+}
+
+
+h1{
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif */
+     /* font-family: "Oswald", sans-serif; */
+}
+
+p{
+    /* font-family: "Edu QLD Hand", cursive; */
+    /* font-family:"Oswald", sans-serif; */
+     /* font-family: "Isometra", serif; */
+     font-weight:normal;
+     font-style: italic;
+      text-transform:lowercase;
+       text-transform:capitalize;
+
+}
+
+h3{
+    font-family: 'ruko';
+}
+
+
+.head{
+    font-family: serif;
+     text-transform:capitalize;
+     text-decoration:line-through;
+   
+}
+
+span{
+     text-decoration-color: chocolate;
+     text-decoration-style:solid;
+   text-decoration-line:  underline;
+}
+
+
+
