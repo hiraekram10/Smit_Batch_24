@@ -1,0 +1,93 @@
+/* .box{
+    background-color: aquamarine;
+    width: 300px;
+    height: 320px;
+    /* width: 50%;
+    height: 100%; */
+     /* width: 50vw;
+     height: 80vh; 
+
+}*/
+
+/* div > img{
+  width:100%;
+  height:60% ;
+}  */
+
+
+ /* .box{
+    background-color: aquamarine;
+    width: 700px;
+    height: 320px;
+   
+
+} */
+
+ /* div > img{
+  width:100%;
+  height:60% ;
+}   */
+
+
+/* .part{
+    width: 80%;
+    height: 40vh;
+    border: 10px solid rgb(255, 0, 0);
+}
+
+.child{
+     width:90%;
+    height: 50%;
+    border: 5px solid black;
+    display: inline-block;
+} */
+
+
+/* .part{
+    width: 900px;
+    max-width: 700px;
+    min-width: 300px;
+
+    height: 600px;
+    border: 10px solid rgb(255, 0, 0);
+} */
+
+/* .part{
+   
+    max-width: 700px;
+    min-width: 300px;
+
+    max-height: 600px;
+    min-height:200px;
+    overflow-y: auto;
+    border: 10px solid rgb(255, 0, 0);
+    padding:20px;
+} */
+
+
+.part{
+   
+    max-width: 700px;
+
+  
+background-color: blue;
+       min-height: 400px;
+   
+    overflow-y: auto;
+    border: 10px solid rgb(255, 0, 0);
+    padding:20px;
+    box-sizing: content-box;
+}
+.part1{
+   background-color: aqua;
+    max-width: 700px;
+  
+
+   min-height: 400px;
+    
+    overflow-y: auto;
+    border: 10px solid rgb(255, 0, 0);
+    padding:20px;
+     box-sizing: border-box;
+}
+
