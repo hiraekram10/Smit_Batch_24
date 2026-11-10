@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+.parent {
+    border: 1px solid red;
+    width:90%;
+    height: 400px;
+    display: flex;
+    /* flex-direction: row;
+     flex-wrap:wrap;  */
+    flex-flow: row wrap;
+    justify-content: space-between;
+     align-items:flex-start;
+   
+    align-content:space-around;
+}
+.items{
+    background-color: rgb(72, 0, 255);
+    font-size: 2rem;
+}
+
+.child1{
+    background: greenyellow;
+     /* flex-grow: 10; */
+       width: 200px;
+       flex-shrink: 4;
+}
+.child2{
+    background: rgb(255, 147, 47);
+  width: 200px;
+    order: -1;
+     /* align-self: center; */
+}
+.child3{
+    background: rgb(82, 47, 255);
+    /* align-self: flex-end; */
+    order: -2;
+      width: 200px;
+     /* flex-grow: 10; */
+   
+}
+.child4{
+    background: rgb(231, 47, 255);
+      width: 200px;
+      /* flex-grow: 30; */
+      /* flex-shrink: 2;
+       align-self: flex-start; */
+}
+
+
+/* __________________________________________ cards code */
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+      font-family: "Irish Grover", system-ui;
+}
+.main{
+    width: 100%;
+    height:auto;
+    /* background-color: bisque; */
+}
+.cards-sec{
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* background-color: cadetblue; */
+}
+.card{
+    border: 1px solid #FF4343;
+    border-radius: 10px;
+    width: 350px;
+  
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.card > img{
+    width: 100%;
+ border-radius: 10px;
+    
+}
+
+.card h1 {
+    /* background-color: aquamarine; */
+    font-size: 1.5rem;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.card p {
+   font-size:1rem;
+   color: #767676;
+    /* Background-color: rgb(163, 127, 255); */
+    font-family: sans-serif;
+    font-weight: 500;
+        margin-top: 4px;
+    margin-bottom: 4px;
+
+}
+.bottom-sec{
+ /* background-color: rgb(255, 202, 127); */
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ 
+
+}
+.bottom-sec >span{
+    width: 50%;
+ /* background-color: cadetblue; */
+ font-size: 1.6rem;
+
+}
+.bottom-sec >button{
+ font-size: 2rem;
+ background-color: #FF4343;
+ color: aliceblue;
+ padding: 8px 15px;
+ border: none;
+ border-radius: 10px;
+}
