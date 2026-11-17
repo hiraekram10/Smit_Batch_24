@@ -1,0 +1,28 @@
+ul > li {
+    list-style-type:decimal-leading-zero;
+    list-style-position: inside;
+}
+
+table{
+    width: 100%;
+}
+table,tr,td{
+    border: 1px solid green;
+    background-color: rgb(202, 255, 202);
+    border-collapse: separate;
+    border-spacing:10px ;
+}
+td{
+    text-align: center;
+}
+    td:hover{
+        background-color: rgb(109, 255, 109);
+    }
+tr:hover{
+ background-color: rgb(255, 231, 109);
+}
+
+
+.new{
+    empty-cells: hide;
+}

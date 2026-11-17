@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    background-color: azure;
+}
+h1{
+    /* background-color: blanchedalmond; */
+    text-align: center;
+}
+form{
+ width: 70%;
+background: #EEAECA;
+background: linear-gradient(182deg, rgba(238, 174, 202, 1) 0%, rgba(79, 249, 255, 1) 100%);
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ padding: 10px;
+ margin: 10px auto;
+}
+.half{
+    width: 100%;
+    display: flex ;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+}
+
+.fullInp{
+    width: 100%;
+    /* background-color: green; */
+
+}
+.halfInp{
+   width: 50%;
+    /* background-color: rgb(124, 0, 128); */
+
+}
+
+.verify{
+    background-color: aquamarine;
+}
