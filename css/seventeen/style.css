@@ -1,0 +1,135 @@
+:root{
+  --redColor:#811325  ;
+  --backgroundColor: #000;
+  --white:#ffff;
+  --noramlFont: 1.1rem
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;margin: 0;
+}
+
+
+/* li > a{
+    color: var(--redColor);
+}
+h1{
+    color: var(--redColor);
+}
+p{
+    background-color: var(--redColor);
+} */
+
+
+
+.main{
+ width: 100%;
+ /* background-color: var(--redColor); */
+
+}
+
+.nav{
+    position: relative;
+    top: 10px;
+    border-radius: 20px;
+    background-color: var(--backgroundColor);
+    height: 40px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+     margin: 0 auto;
+}
+
+
+.logo {
+/* background-color: aquamarine; */
+width: 30%;
+display: flex;
+align-items: center;
+gap: 4px;
+justify-content: center;
+
+}
+.logo img{
+    width: 20px;
+    height: 30%;
+    border-radius: 50%;
+
+}
+.logo span{
+color: var(--white);
+}
+sup{
+    font-size: 0.30rem;
+    padding: 0;
+    
+}
+
+.menu{
+    width: 50%;
+    /* background-color: gold; */
+}
+.menu > ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    /* background-color: blue; */
+
+}
+.menu li {
+    /* background-color: aquamarine; */
+}
+.menu a {
+    color:var(--white) ;
+    text-decoration: none;
+  font-size: var(--noramlFont);
+}
+.acount{
+    /* background-color: palegoldenrod; */
+    width: 20%;
+    text-align: center;
+    color: var(--white);
+     font-size: var(--noramlFont);
+}
+.mobilenav{
+    display: none;
+}
+
+
+
+@media screen and (width <= 768px){
+    
+    .menu{
+        display: none;
+    }
+    .logo span{
+ font-size:0.50rem ;
+    }
+    .nav{
+     justify-content: space-between;
+     
+    }
+    .logo{
+        background-color: blue;
+    }
+    .acount{
+        background-color: chartreuse;
+        text-align: start;
+    }
+    .mobilenav {
+        display: flex;
+        background-color: var(--redColor);
+        width: 80%;
+        position: relative;
+        top:20px;
+        height:30px;
+        margin: 0 auto;
+        justify-content: space-around;
+
+    }
+}
+
+
+
+
